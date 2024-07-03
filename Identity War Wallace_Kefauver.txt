@@ -50,7 +50,7 @@ function tunnel(new_q){
 cyoAdventure = function(a) {
     ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
     if ([2133].includes(ans)){
-        changeVP('Barkley', 'https://media.discordapp.net/attachments/1050549034294718536/1088637804055101460/Alben-Barkley.webp');
+        changeVP('Barkley', 'https://files.catbox.moe/4yk4k9.jpg');
     }
 }
 
@@ -151,7 +151,7 @@ endingPicker = (out, totv, aa, quickstats) => {
   if ((suicide >= 1 || controv >= 1) && out == "tie") { 
         e.header = "<h2>A Plain President</h2>"
         e.pages = ["<p>In a result that will surely leave everyone on all sides reeling, not only have you managed to not be completely embarrassed, but you've even gotten this entire thing thrown to the House. And while normally Thurmond and his traitorous snakes may have been overjoyed, they are most certainly not when it comes to how things seem likely to end up. In this contingent election, should the House be unable to vote on a preferred candidate, as is the case so far, considering the animosity and lack of cooperation on any side, that would leave the role of president between Everett Dirksen and Alben Barkley in a Senate vote.</p><p>Already you can see many in your party ready to usher in the era of Barkley, not to mention a sizable chunk of both Republican and States' Rights Members more than willing to compromise with a likable moderate like good old Alben. Sitting in your office looking at these results, you get a major epiphany. You realize that Barkley must have planned this result all along, and the truth hits you like a ton of bricks. That damn old man played you for a major fool!</p>"]
-    e.image = "https://media.discordapp.net/attachments/1050549034294718536/1091603823769956423/Barkley2.jpg?width=338&height=368";
+    e.image = "https://www.senate.gov/artandhistory/history/resources/graphic/xlarge/ky_1947_barkley.jpg";
         return construct(0);
   }
   if ((suicide >= 1 || controv >= 1) && out == "win") { 
@@ -166,13 +166,13 @@ endingPicker = (out, totv, aa, quickstats) => {
 
   if (campaignTrail_temp.player_answers[4] == 2104 && quickstats[0] >= 0 && quickstats[0] <264 && campaignTrail_temp.running_mate_last_name == "Kefauver") { 
         e.header = "<h2>WALLACE DEFEATED; THE WORLD SAVED FROM ANOTHER WORLD WAR!</h2>"
-        e.pages = ["<p>This headline stretches across the front page of <em>The New Republic</em>. Even a paper that had once supported you every step of the way is now relieved that you would not regain the Presidency. Your gambit to go to war against the People’s Republic of Italy only backfired, as those last few months were spent trying to avert a nuclear holocaust between the US and the Soviets. Even the Peace Accords failed to do much once Stalin learned of your correspondence with MacArthur to invade the nation. Your political career is not only over, but Congress is also pledging to have you prosecuted for war crimes. You just may become the first President in history behind bars before your term is even over!</p><p>Everyone has abandoned you, from Hubert to Estes, who had once supported you every step of the way, and even Ilo has called you a mad man for this insanity. You tried to tell them you didn’t mean it, that someone had taken control of you to do these horrible things, but they don’t listen. They don’t know the truth, that in the end none of this is real and you’re just a puppet to be pulled along his strings. In the end you were just a creation made by an ambitious coder who decided it would be humorous to ruin your life and reputation.</p>"]
+        e.pages = ["<p>This headline stretches across the front page of <em>The New Republic</em>. Even a paper that had once supported you every step of the way is now relieved that you would not regain the Presidency. Your gambit to go to war against the People’s Republic of Italy only backfired, as those last few months were spent trying to avert a nuclear holocaust between the US and the Soviets. Even the Peace Accords failed to do much once Stalin learned of your correspondence with MacArthur to invade the nation. Your political career is not only over, but Congress is also pledging to have you prosecuted for war crimes. You just may become the first President in history behind bars before your term is even over!</p><p>Everyone has abandoned you, from Hubert to Estes, who had once supported you every step of the way, and even Ilo has called you a mad man for this insanity. You tried to tell them you didn’t mean it, that someone had taken control of you to do these horrible things, but they don’t listen. They don’t know the truth, that in the end none of this is real and you’re just a puppet to be pulled along his strings. In the end you were just a creation made by an ambitious coder who decided it would be humorous to ruin your life and reputation. Also to create a very shitty racist mod.</p>"]
         return construct(0);
   }
   if (campaignTrail_temp.player_answers[4] == 2104 && quickstats[0] >= 265 && quickstats[0] <531 && campaignTrail_temp.running_mate_last_name == "Kefauver") { 
         e.header = "<h2>A Post Nuclear Role-Playing Game</h2>"
         e.pages = ["<p><p>The year is 2102. After what many describe as World War 3 in 1949 where the United States invaded the People’s Republic of Italy, the world fell into a nuclear holocaust. Every man, woman, and child found themselves on the brink of destruction after the bombs dropped and radiation spread from continent to continent, killing nearly everyone in its path.</p><p> You are perhaps one of the sole survivors in the State of New Jersey, wandering the lands in search of food, fresh water, and friendly faces in a hostile world full of Supermutants, Rad Roaches, and the occasional Deathclaw.</p><p> You are Stanley Harriman Wallace, the descendant of the man who had caused this disaster, and perhaps the only one who can save what’s left of humanity. Together alongside your best friend and lover, Sadie Truman, you must embark on a quest to stop the rogue Enclave and take back America for the common man! Go forth Wallace, and reclaim the rights of every man for every Wastelander!</p>"]
-  e.image = "https://media.discordapp.net/attachments/1050549034294718536/1071972959700398090/Nuclear_Explosion.jpg";
+  e.image = "https://cdn.openart.ai/stable_diffusion/0c2341ba1dfeb9fd008e968d274125410b7c04e7_2000x2000.webp";
         return construct(0);
   }
   if (suicide < 1 && controv <= 1 && quickstats[0] < 81) { 
