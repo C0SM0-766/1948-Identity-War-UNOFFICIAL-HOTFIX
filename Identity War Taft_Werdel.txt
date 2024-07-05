@@ -32,7 +32,7 @@ const style_overwrite = document.createElement("style");
             style_overwrite.innerHTML = 
             `#campaign_sign {
             background-color: #4d1c18;
-            border-color: #45b6fe;
+            border-color: #841922;
             }
             .inner_window_question h3 {
             background-color: #e39191;
